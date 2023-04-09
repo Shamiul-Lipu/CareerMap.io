@@ -5,3 +5,9 @@
 .button-primary {
     @apply py-3 px-5 bg-gradient-to-r from-indigo-400 to-violet-500 text-white text-lg rounded-lg font-semibold
 }
+
+.active {
+    @apply font-medium tracking-wide text-violet-500 transition-colors duration-200
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap');

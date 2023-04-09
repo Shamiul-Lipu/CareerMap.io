@@ -10,7 +10,9 @@ function App() {
 
   return (
     <>
-      <Header />
+      <section className='bg-violet-50'>
+        <Header />
+      </section>
       <Outlet />
     </>
   )

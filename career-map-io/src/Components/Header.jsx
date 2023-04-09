@@ -1,12 +1,14 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Header = () => {
     return (
         // header section
-        <section className='flex justify-evenly items-center'>
+        <div className='flex justify-between items-center px-2 py-12 mx-auto container bg-violet-50'>
             {/* Logo */}
-            <h1 className='text-4xl font-bold'>Career<span className='text-violet-500'>M</span>ap<span className='text-violet-500'>.</span>io</h1>
+            <Link to='/'>
+                <h1 className='text-4xl font-bold'>Career<span className='text-violet-500'>M</span>ap<span className='text-violet-500'>.</span>io</h1>
+            </Link>
             {/* nav menu */}
             <nav>
                 <ul className='flex justify-evenly items-center gap-6'>
@@ -38,7 +40,7 @@ const Header = () => {
             </nav>
 
             <button className='button-primary'>Start Applying</button>
-        </section>
+        </div>
     );
 };
 
