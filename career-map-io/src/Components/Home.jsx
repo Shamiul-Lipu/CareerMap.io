@@ -1,4 +1,5 @@
 import React from 'react';
+import FeaturedJobs from './FeaturedJobs/FeaturedJobs';
 
 const Home = () => {
     return (
@@ -58,6 +59,23 @@ const Home = () => {
                     </div>
                 </div>
             </section>
+
+            {/* Featured Jobs */}
+            <section className='bg-white py-10'>
+                <div className='mx-auto container'>
+                    {/* title section */}
+                    <div className='py-5'>
+                        <h3 className='text-5xl font-semibold pb-5'>Featured Jobs</h3>
+                        <p className='text-lg font-medium text-gray-500'>Explore thousands of job opportunities with all the information you need. Its your future</p>
+                    </div>
+                    {/* Job list section */}
+                    <div className=''>
+                        {/* Featured JOb */}
+                        <FeaturedJobs></FeaturedJobs>
+                    </div>
+                </div>
+            </section>
+
         </main>
     );
 };

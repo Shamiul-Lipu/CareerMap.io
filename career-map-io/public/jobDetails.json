@@ -1,0 +1,200 @@
+[
+    {
+        "id": "1sssssss",
+        "Company_Logo": "https://cdn.dribbble.com/users/9378043/screenshots/16832559/netflix__1_.png",
+        "Job_title": "Software Engineer",
+        "Company_Name": "Netflix",
+        "work_place": "Remote Onsite",
+        "Location": "Los Gatos, CA",
+        "working_hour": "Fulltime",
+        "Salary": "$150k - $250k",
+        "Job_Description": "We are seeking an experienced software engineer to join our team and help us build the next generation of our streaming platform.",
+        "Job_Responsibility": "Responsibilities include: developing new features, improving existing ones, and optimizing the performance and scalability of our platform.",
+        "Educational_Requirements": "BS/MS in Computer Science or equivalent work experience.",
+        "Experiences": "5+ years of software engineering experience in a fast-paced, high-growth tech environment.",
+        "Contact_information": [
+            "phone: 1-888-357-1516",
+            "email: jobs@netflix.com"
+        ]
+    },
+    {
+        "id": "65",
+        "Company_Logo": "https://logowik.com/content/uploads/images/tesla.jpg",
+        "Job_title": "Software Engineer",
+        "Company_Name": "Tesla",
+        "work_place": "Onsite",
+        "Location": "Palo Alto, CA",
+        "working_hour": "Fulltime",
+        "Salary": "$120k - $200k",
+        "Job_Description": "We are looking for a talented software engineer to join our Autopilot team and help develop the future of autonomous driving.",
+        "Job_Responsibility": "Responsibilities include: designing, implementing, and testing software for our Autopilot system, working closely with hardware teams to optimize performance, and collaborating with cross-functional teams to ensure successful integration.",
+        "Educational_Requirements": "BS/MS in Computer Science, Electrical Engineering or related field.",
+        "Experiences": "3+ years of software engineering experience, experience with C++ and Linux, and experience with machine learning is a plus.",
+        "Contact_information": [
+            "phone: 1-888-518-3752",
+            "email: jobs@tesla.com"
+        ]
+    },
+    {
+        "id": "2rt",
+        "Company_Logo": "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
+        "Job_title": "Machine Learning Engineer",
+        "Company_Name": "Google",
+        "work_place": "Onsite/Remote",
+        "Location": "Mountain View, CA",
+        "working_hour": "Full-time",
+        "Salary": "$140k - $220k",
+        "Job_Description": "Join our team and help us build intelligent systems that empower millions of people.",
+        "Job_Responsibility": "Design and develop machine learning models, work closely with cross-functional teams to deliver world-class products.",
+        "Educational_Requirements": "Ph.D. in Computer Science or related field.",
+        "Experiences": "3+ years of experience in machine learning.",
+        "Contact_information": [
+            "phone: (650) 253-0000",
+            "email: jobs@google.com"
+        ]
+    },
+    {
+        "id": "3jk",
+        "Company_Logo": "https://www.thesun.co.uk/wp-content/uploads/2022/02/Amazon-Logo-1024x426-1.png",
+        "Job_title": "Data Scientist",
+        "Company_Name": "Amazon",
+        "work_place": "Onsite/Remote",
+        "Location": "Seattle, WA",
+        "working_hour": "Full-time",
+        "Salary": "$120k - $220k",
+        "Job_Description": "Join our team and help us analyze data to improve customer experiences.",
+        "Job_Responsibility": "Design and develop data models, work closely with cross-functional teams to deliver world-class products.",
+        "Educational_Requirements": "Master's degree in Computer Science, Statistics, or related field.",
+        "Experiences": "3+ years of experience in data science.",
+        "Contact_information": [
+            "phone: (206) 266-1000",
+            "email: amazon-jobs@amazon.com"
+        ]
+    },
+    {
+        "id": "1ewrwe",
+        "Company_Logo": "https://blog.hubspot.com/hubfs/image8-2.jpg",
+        "Job_title": "Software Engineer",
+        "Company_Name": "Google",
+        "work_place": "Remote",
+        "Location": "Mountain View, CA",
+        "working_hour": "Full-time",
+        "Salary": "$120k - $180k",
+        "Job_Description": "We are looking for a talented software engineer to join our team and help build innovative products.",
+        "Job_Responsibility": "Design and develop software applications, collaborate with cross-functional teams, and contribute to code reviews.",
+        "Educational_Requirements": "Bachelor's degree in Computer Science or related field.",
+        "Experiences": "3+ years of experience in software engineering.",
+        "Contact_information": [
+            "phone: (650) 253-0000",
+            "email: careers@google.com"
+        ]
+    },
+    {
+        "id": "2tgdsswer",
+        "Company_Logo": "https://images.unsplash.com/photo-1621768216002-5ac171876625?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YXBwbGUlMjBsb2dvfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+        "Job_title": "iOS Developer",
+        "Company_Name": "Apple",
+        "work_place": "Onsite",
+        "Location": "Cupertino, CA",
+        "working_hour": "Full-time",
+        "Salary": "$130k - $200k",
+        "Job_Description": "Join our team and build the world's most innovative mobile applications.",
+        "Job_Responsibility": "Design and develop iOS applications, work closely with designers and cross-functional teams to deliver world-class software.",
+        "Educational_Requirements": "Bachelor's degree in Computer Science or related field.",
+        "Experiences": "5+ years of experience in iOS development.",
+        "Contact_information": [
+            "phone: (408) 996-1010",
+            "email: jobs@apple.com"
+        ]
+    },
+    {
+        "id": "3trafs",
+        "Company_Logo": "https://1000logos.net/wp-content/uploads/2016/11/Facebook-Logo-2015.jpg",
+        "Job_title": "Frontend Developer",
+        "Company_Name": "Facebook",
+        "work_place": "Remote",
+        "Location": "Menlo Park, CA",
+        "working_hour": "Full-time",
+        "Salary": "$100k - $150k",
+        "Job_Description": "Join our team and help us build the world's most engaging user interfaces.",
+        "Job_Responsibility": "Develop and maintain frontend applications using modern web technologies, work closely with designers and backend engineers to deliver world-class software.",
+        "Educational_Requirements": "Bachelor's degree in Computer Science or related field.",
+        "Experiences": "3+ years of experience in frontend development.",
+        "Contact_information": [
+            "phone: (650) 543-4800",
+            "email: careers@fb.com"
+        ]
+    },
+    {
+        "id": "5srefveytj",
+        "Company_Logo": "https://static.dezeen.com/uploads/2016/02/uber-rebrand-designcrowd-contest_dezeen_1568_13.jpg",
+        "Job_title": "Backend Engineer",
+        "Company_Name": "Uber",
+        "work_place": "Remote",
+        "Location": "San Francisco, CA",
+        "working_hour": "Full-time",
+        "Salary": "$120k - $180k",
+        "Job_Description": "Join our team and help us build the world's most reliable and scalable transportation platform.",
+        "Job_Responsibility": "Design and develop backend systems, work closely with frontend and mobile engineers to deliver a seamless user experience.",
+        "Educational_Requirements": "Bachelor's degree in Computer Science or related field.",
+        "Experiences": "3+ years of experience in backend engineering.",
+        "Contact_information": [
+            "phone: (866) 576-1039",
+            "email: careers@uber.com"
+        ]
+    },
+    {
+        "id": "6sdfawe",
+        "Company_Logo": "https://brand.linkedin.com/apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/default-share.png",
+        "Job_title": "Software Engineer",
+        "Company_Name": "LinkedIn",
+        "work_place": "Onsite",
+        "Location": "Sunnyvale, CA",
+        "working_hour": "Full-time",
+        "Salary": "$140k - $220k",
+        "Job_Description": "Join our team and help us build the world's largest professional network.",
+        "Job_Responsibility": "Design and develop software applications, work closely with product managers and cross-functional teams to deliver world-class software.",
+        "Educational_Requirements": "Bachelor's degree in Computer Science or related field.",
+        "Experiences": "5+ years of experience in software engineering.",
+        "Contact_information": [
+            "phone: (650) 687-3600",
+            "email: careers@linkedin.com"
+        ]
+    },
+    {
+        "id": "7ervrta",
+        "Company_Logo": "https://blog.adobe.com/en/publish/2021/08/31/media_1649ebc3fbbce0df508081913819d491fc3f7c7a9.png?width=750&format=png&optimize=medium",
+        "Job_title": "Cloud Architect",
+        "Company_Name": "Amazon Web Services (AWS)",
+        "work_place": "Remote",
+        "Location": "Seattle, WA",
+        "working_hour": "Full-time",
+        "Salary": "$150k - $250k",
+        "Job_Description": "Join our team and help us build the world's most comprehensive and broadly adopted cloud platform.",
+        "Job_Responsibility": "Design and implement complex cloud solutions, work closely with customers to understand their needs and provide world-class technical guidance.",
+        "Educational_Requirements": "Bachelor's degree in Computer Science or related field.",
+        "Experiences": "7+ years of experience in cloud architecture.",
+        "Contact_information": [
+            "phone: (206) 266-1000",
+            "email: aws-recruiting@amazon.com"
+        ]
+    },
+    {
+        "id": "1df",
+        "Company_Logo": "https://www.apple.com/ac/structured-data/images/knowledge_graph_logo.png",
+        "Job_title": "Software Engineer",
+        "Company_Name": "Apple",
+        "work_place": "Onsite",
+        "Location": "Cupertino, CA",
+        "working_hour": "Full-time",
+        "Salary": "$120k - $200k",
+        "Job_Description": "Join our team and help us create innovative products that revolutionize the industry.",
+        "Job_Responsibility": "Design and develop software applications, work closely with cross-functional teams to deliver world-class software.",
+        "Educational_Requirements": "Bachelor's degree in Computer Science or related field.",
+        "Experiences": "3+ years of experience in software engineering.",
+        "Contact_information": [
+            "phone: (408) 996-1010",
+            "email: jobs@apple.com"
+        ]
+    }
+]
