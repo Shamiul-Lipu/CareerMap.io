@@ -1,5 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
+import { addToDb } from '../utils/localDb';
 
 const JobDetail = () => {
     const [details, setDetails] = useState({});
@@ -12,11 +13,19 @@ const JobDetail = () => {
         }
     })
 
+    // applied jobs saved into local storage
+    const handleApplies = (id) => {
+        console.log(id)
+        addToDb(id);
+    }
+
     return (
         <div className='bg-violet-50'>
             <div className=''>
-                <img className='' src="/src/assets/images/Vector.png" alt="" />
                 <h3 className='text-5xl font-semibold'>Job Details</h3>
+                <div>
+                    <img className='' src="/src/assets/images/Vector.png" alt="" />
+                </div>
             </div>
             <div className='bg-white text-left'>
                 <div className='container mx-auto flex gap-3 py-10'>
@@ -77,7 +86,7 @@ const JobDetail = () => {
                                 </div>
                             </div>
                         </div>
-                        <button className='button-primary w-full mt-3'>Apply Now</button>
+                        <button onClick={() => handleApplies(findDetails.id)} className='button-primary w-full mt-3'>Apply Now</button>
                     </div>
                 </div>
             </div>
