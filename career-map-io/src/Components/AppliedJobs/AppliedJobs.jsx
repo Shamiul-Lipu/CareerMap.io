@@ -28,7 +28,7 @@ const AppliedJobs = () => {
             </div>
             <div className='bg-white text-left'>
                 <div className='container mx-auto py-10'>
-                    <div>
+                    <div className=''>
                         {
                             initial.map(job => <AppliedJob job={job} key={job.id} />)
                         }

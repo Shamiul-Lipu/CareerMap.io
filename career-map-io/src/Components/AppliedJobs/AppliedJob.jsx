@@ -1,11 +1,14 @@
 import React from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 
 const AppliedJob = ({ job }) => {
-    const { Job_title, Company_Logo, Company_Name, Location, work_place, working_hour, Salary, id } = job
+    const { Job_title, Company_Logo, Company_Name, Location, work_place, working_hour, Salary, id } = job;
+
+    // const navigate = useNavigate();
+
     console.log(job);
     return (
-        <div>
-
+        <div className='my-5'>
             <div className="card  bg-base-100 shadow-xl p-4">
                 <div className="flex  items-center">
                     <figure className='w-2/6'><img src={Company_Logo} alt="Shoes" /></figure>
@@ -33,7 +36,9 @@ const AppliedJob = ({ job }) => {
 
                     </div>
                     <div className="justify-end">
-                        <button className="button-primary">View Details</button>
+                        <Link to={`/JobDetail/${id}`}>
+                            <button className="button-primary">View Details</button>
+                        </Link>
                     </div>
                 </div>
             </div>
