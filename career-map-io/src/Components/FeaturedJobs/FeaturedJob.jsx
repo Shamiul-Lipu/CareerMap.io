@@ -1,12 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const FeaturedJob = ({ job }) => {
-    const { Job_title, Company_Logo, Company_Name, Location, work_place, working_hour, Salary } = job
-    console.log(job);
+    const { Job_title, Company_Logo, Company_Name, Location, work_place, working_hour, Salary, id } = job
+
     return (
         <div>
             <div className="card w-full bg-base-100 shadow-xl">
-                <figure className='h-56'><img src={job.Company_Logo} alt="Shoes" /></figure>
+                <figure className='h-56'><img src={Company_Logo} alt="Shoes" /></figure>
                 <div className="card-body text-left">
                     <h2 className="font-bold text-lg">{Job_title}</h2>
                     <p>{Company_Name}</p>
@@ -27,7 +28,9 @@ const FeaturedJob = ({ job }) => {
                         </svg>
                         <p>Salary: {Salary}</p>
                     </div>
-                    <button className='button-primary w-2/4'>View Details</button>
+                    <Link to={`/JobDetail/${id}`}>
+                        <button className='button-primary w-2/4'>View Details</button>
+                    </Link>
                 </div>
             </div>
         </div>
