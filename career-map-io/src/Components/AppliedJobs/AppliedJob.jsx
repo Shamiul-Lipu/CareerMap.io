@@ -6,7 +6,7 @@ const AppliedJob = ({ job }) => {
 
     // const navigate = useNavigate();
 
-    console.log(job);
+    // console.log(job);
     return (
         <div className='my-5'>
             <div className="card  bg-base-100 shadow-xl p-4">
