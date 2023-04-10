@@ -1,5 +1,6 @@
 import React from 'react';
 import FeaturedJobs from './FeaturedJobs/FeaturedJobs';
+import JobCategory from './JobCategory/JobCategory';
 
 const Home = () => {
     return (
@@ -31,30 +32,8 @@ const Home = () => {
                     </div>
                     {/* list section */}
                     <div className='grid grid-cols-4 py-5 gap-4'>
-                        <div className='bg-violet-50 px-5 py-5 text-left rounded-md '>
-                            <img className='px-4 py-4 mb-6 bg-violet-100 rounded-sm' src="/src/assets/Icons/accounts.png" alt="" />
-                            <h3 className='font-bold'>Accout & Finance</h3>
-                            <p className='text-slate-500'>300 Jobs Available</p>
-                        </div>
 
-
-                        <div className='bg-violet-50 px-5 py-5 text-left rounded-md'>
-                            <img className='px-4 py-4 mb-6 bg-violet-100 rounded-sm' src="/src/assets/Icons/business.png" alt="" />
-                            <h3 className='font-bold'>Creative Design</h3>
-                            <p className='text-slate-500'>100+ Jobs Available</p>
-                        </div>
-
-                        <div className='bg-violet-50 px-5 py-5 text-left rounded-md'>
-                            <img className='px-4 py-4 mb-6 bg-violet-100 rounded-sm' src="/src/assets/Icons/marketing.png" alt="" />
-                            <h3 className='font-bold'>Marketiong & Sales</h3>
-                            <p className='text-slate-500'>150 Jobs Available</p>
-                        </div>
-
-                        <div className='bg-violet-50 px-5 py-5 text-left rounded-md'>
-                            <img className='px-4 py-4 mb-6 bg-violet-100 rounded-sm' src="/src/assets/Icons/chip.png" alt="" />
-                            <h3 className='font-bold'>Engineering Job</h3>
-                            <p className='text-slate-500'>224 Jobs Available</p>
-                        </div>
+                        <JobCategory></JobCategory>
 
                     </div>
                 </div>
@@ -69,7 +48,7 @@ const Home = () => {
                         <p className='text-lg font-medium text-gray-500'>Explore thousands of job opportunities with all the information you need. Its your future</p>
                     </div>
                     {/* Job list section */}
-                    <div className=''>
+                    <div id='featuredJobs' className=''>
                         {/* Featured JOb */}
                         <FeaturedJobs></FeaturedJobs>
                     </div>

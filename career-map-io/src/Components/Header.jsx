@@ -47,8 +47,10 @@ const Header = () => {
                     </li>
                 </ul>
             </nav>
+            <a href='#featuredJobs'>
+                <button className='button-primary'>Start Applying</button>
+            </a>
 
-            <button className='button-primary'>Start Applying</button>
         </div>
     );
 };
