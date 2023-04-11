@@ -1,6 +1,8 @@
 import React from 'react';
 import FeaturedJobs from './FeaturedJobs/FeaturedJobs';
 import JobCategory from './JobCategory/JobCategory';
+import img from '../assets/images/person.png'
+
 
 const Home = () => {
     return (
@@ -18,7 +20,7 @@ const Home = () => {
                     <button className='button-primary my-3'>Get Started</button>
                 </div>
                 <div className='hidden md:block'>
-                    <img className='' src="/src/assets/images/person.png" alt="" />
+                    <img className='' src={img} alt="" />
                 </div>
             </section>
 

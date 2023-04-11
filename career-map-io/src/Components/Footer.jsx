@@ -8,7 +8,7 @@ const Footer = () => {
                 <div>
                     <h3 className='text-white font-bold text-3xl'>CareerMap.io</h3>
                     <p className='text-sm py-5'>Our vision is a world where everyone has access to fulfilling careers. <br /> We're committed to equality, diversity, and empowering individuals to <br /> reach their full potential.</p>
-                    <img src="/src/assets/Icons/group.png" alt="" />
+                    <img src="https://i.ibb.co/945ffPd/group.png" alt="" />
                 </div>
                 <div>
                     <h3 className='text-white font-semibold text-2xl'>Company</h3>
