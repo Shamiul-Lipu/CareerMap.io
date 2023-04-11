@@ -13,7 +13,7 @@ const addToDb = id => {
     // add quantity
     const quantity = shoppingCart[id]
     if (quantity) {
-        return toast("⚠️ You already applied for this job!", {
+        return toast("⚠️ You've already applied for this job!", {
             style: {
                 borderRadius: '10px',
                 background: '#333',
