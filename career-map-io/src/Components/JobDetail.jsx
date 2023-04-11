@@ -24,7 +24,7 @@ const JobDetail = () => {
             <div className=''>
                 <h3 className='text-5xl font-semibold'>Job Details</h3>
                 <div>
-                    <img className='' src="/src/assets/images/Vector.png" alt="" />
+                    <img className='' src="https://i.ibb.co/qnxh1Tj/Vector.png" alt="" />
                 </div>
             </div>
             <div className='bg-white text-left'>

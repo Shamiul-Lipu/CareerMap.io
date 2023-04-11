@@ -43,7 +43,7 @@ const Statistics = () => {
             <div className='bg-violet-50'>
                 <h3 className='text-5xl font-semibold'>Statistics</h3>
                 <div>
-                    <img className='' src="/src/assets/images/Vector.png" alt="" />
+                    <img className='' src="https://i.ibb.co/qnxh1Tj/Vector.png" alt="" />
                 </div>
             </div>
             <div className='flex justify-center items-center p-9 m-5' >
