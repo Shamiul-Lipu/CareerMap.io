@@ -39,23 +39,30 @@ const Statistics = () => {
     ];
 
     return (
-
-        <div className='flex justify-center items-center p-9 m-5' >
-            <div>
-                <AreaChart
-                    width={500}
-                    height={400}
-                    data={data}
-                >
-                    <CartesianGrid strokeDasharray="3 3" />
-                    <XAxis dataKey="milestioneExam" />
-                    <YAxis />
-                    <Tooltip />
-                    <Area type="monotone" dataKey="marks" stroke="#8884d8" fill="#8884d8" />
-                </AreaChart>
+        <section>
+            <div className='bg-violet-50'>
+                <h3 className='text-5xl font-semibold'>Statistics</h3>
+                <div>
+                    <img className='' src="/src/assets/images/Vector.png" alt="" />
+                </div>
             </div>
-        </div>
+            <div className='flex justify-center items-center p-9 m-5' >
 
+                <div>
+                    <AreaChart
+                        width={500}
+                        height={400}
+                        data={data}
+                    >
+                        <CartesianGrid strokeDasharray="3 3" />
+                        <XAxis dataKey="milestioneExam" />
+                        <YAxis />
+                        <Tooltip />
+                        <Area type="monotone" dataKey="marks" stroke="#8884d8" fill="#8884d8" />
+                    </AreaChart>
+                </div>
+            </div>
+        </section>
     );
 };
 

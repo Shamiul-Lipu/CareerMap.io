@@ -12,6 +12,7 @@ import Blog from './Components/Blog'
 import JobDetails from './Components/JobDetail';
 import AppliedJobs from './Components/AppliedJobs/AppliedJobs';
 import ErrorPage from './Components/ErrorPage';
+import { Toaster } from 'react-hot-toast';
 
 
 const router = createBrowserRouter([
@@ -50,6 +51,7 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <>
+    <Toaster />
     <RouterProvider router={router} />
   </>
 )

@@ -1,3 +1,5 @@
+import { toast } from "react-hot-toast"
+
 // use local storage to manage cart data
 const addToDb = id => {
     let shoppingCart = {}
@@ -11,12 +13,25 @@ const addToDb = id => {
     // add quantity
     const quantity = shoppingCart[id]
     if (quantity) {
-        const newQuantity = quantity + 1
-        shoppingCart[id] = newQuantity
+        return toast("⚠️ You already applied for this job!", {
+            style: {
+                borderRadius: '10px',
+                background: '#333',
+                color: '#fff',
+            }
+        });
     } else {
         shoppingCart[id] = 1
+
     }
     localStorage.setItem('shopping-cart', JSON.stringify(shoppingCart))
+    return toast.success('Successfully Applied!', {
+        style: {
+            borderRadius: '10px',
+            background: '#333',
+            color: '#fff',
+        }
+    });
 }
 
 const getStoredCart = () => {

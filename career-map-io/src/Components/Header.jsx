@@ -4,16 +4,18 @@ import { Link, NavLink } from 'react-router-dom';
 const Header = () => {
     return (
         // header section
-        <div className='flex justify-between items-center px-2 py-12 mx-auto container bg-violet-50'>
+        <div className='grid md:flex justify-between items-center px-2 py-12 mx-auto container bg-violet-50'>
             {/* Logo */}
             <Link to='/' className='flex justify-center items-center'>
                 <img className='h-16' src="/src/assets/Logo/career-path.png" alt="" />
-                <h1 className='text-4xl font-bold'>Career<span className='text-violet-500'>M</span>ap<span className='text-violet-500'>.</span>io</h1>
+
+                <h1 className='text-3xl md:text-4xl font-bold'>Career<span className='text-violet-500'>M</span>ap<span className='text-violet-500'>.</span>io</h1>
+
             </Link>
             {/* nav menu */}
             <nav>
-                <ul className='flex justify-evenly items-center gap-6'>
-                    <li className='text-lg font-medium text-gray-500 hover:text-violet-500'>
+                <ul className='text-start md:flex justify-center items-center gap-6 px-3'>
+                    <li className='text-base font-medium text-gray-500 hover:text-violet-500'>
                         <NavLink to='/'
                             aria-label=''
                             title=''
@@ -21,7 +23,7 @@ const Header = () => {
                             Home
                         </NavLink>
                     </li>
-                    <li className='text-lg font-medium text-gray-500 hover:text-violet-500'>
+                    <li className='text-base font-medium text-gray-500 hover:text-violet-500'>
                         <NavLink to='/statistics'
                             aria-label='statistics'
                             title='statistics'
@@ -29,7 +31,7 @@ const Header = () => {
                             Statistics
                         </NavLink>
                     </li>
-                    <li className='text-lg font-medium text-gray-500 hover:text-violet-500'>
+                    <li className='text-base font-medium text-gray-500 hover:text-violet-500'>
                         <NavLink to='/applied-jobs'
                             aria-label='applied-jobs'
                             title='applied-jobs'
@@ -37,7 +39,7 @@ const Header = () => {
                             Applied Jobs
                         </NavLink>
                     </li>
-                    <li className='text-lg font-medium text-gray-500 hover:text-violet-500'>
+                    <li className='text-base font-medium text-gray-500 hover:text-violet-500'>
                         <NavLink to='/blog'
                             aria-label='blog'
                             title='blog'
