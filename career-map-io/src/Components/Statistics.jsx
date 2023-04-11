@@ -1,5 +1,5 @@
 import React from 'react';
-import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
+import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, Radar, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis } from 'recharts';
 
 
 const Statistics = () => {
@@ -62,7 +62,7 @@ const Statistics = () => {
                     </AreaChart>
                 </div>
             </div>
-        </section>
+        </section >
     );
 };
 
